@@ -1,0 +1,89 @@
+body{
+	background-color: #fafafa;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+.hero-unit{
+	margin: 20px auto 0 auto;
+	width: 300px;
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 20px;
+	background-color: #eee;
+	border-radius: 6px;
+	padding: 10px 20px;
+}
+
+hero-unit h1{
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+input{
+	border: 1px solid #999;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+button{
+	zoom: 1.5;
+	background-color: #999;
+	border: 1px solid #999;
+	border-radius: 4px;
+	padding: 1px 5px;
+}
+
+button.active{
+	background-color: rgb(165, 227, 158);
+}
+
+#peopleModule{
+	text-align: center;
+}
+
+#peopleModule ul{
+	padding: 0;
+}
+
+#peopleModule li{
+	display: inline-block;
+	list-style-type: none;
+	background: #98ec9b;
+	padding: 4px 8px;
+	border-radius: 5px;
+	margin: 5px 0;
+	width: 200px;
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+
+#peopleModule li:hover{
+	opacity: 1;
+}
+
+#peopleModule li span{
+	display: inline-block;
+	width: 160px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#peopleModule li i{
+	cursor: pointer;
+	background-color: #666;
+	color: #FFF;
+	padding: 2px 4px;
+	float: right;
+	font-weight: bold;
+	font-size: 60%;
+	margin-top: 3px;
+	border-radius: 20px;
+	opacity: 0.7;
+	transition: opacity 0.3s;
+}
+
+#peopleModule li i:hover{
+	opacity: 1;
+}
